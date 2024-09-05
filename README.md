@@ -122,6 +122,8 @@ Crear archivos HTML:
 echo "<html><body><h1>Servidor Backend 1</h1></body></html>" > ~/backend1/index.html
 echo "<html><body><h1>Servidor Backend 2</h1></body></html>" > ~/backend2/index.html
 echo "<html><body><h1>Servidor Backend 3</h1></body></html>" > ~/backend3/index.html
+
+
 Iniciar servidores backend:
 cd ~/backend1
 python3 -m http.server 8081 --bind 127.0.0.1
